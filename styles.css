@@ -4,32 +4,70 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-#Main {
-    width: 100%;
-    height:100vh;
+body p {
+  margin-inline: 12%;
+  border: 1px solid black;
 }
-
+/* Nav-bar */
+/* About Section */
+#About {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.card {
+  width: 50%;
+  border: 1px solid black;
+}
+.card img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+}
+.img_description {
+  width: 50%;
+  border: 1px solid black;
+  overflow: scroll;
+  max-height: 300px;
+  text-align: center;
+}
+/* Skills Section */
+#Skills {
+  width: 100%;
+  border: 1px solid black;
+}
+.skills-title {
+  display: flex;
+  justify-content: space-between;
+  
+}
+meter {
+ width: 100%;
+}
 .intro {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+  text-align: center;
+}
+div.row {
+  display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-button {
-    background-color: #EE6C4D;
-    border-radius: 10px;
-    width: 100px;
-}
 
-/*footer */
+/* Testimony Section */
+div.carousel-inner {
+  text-align: center;
+}
+/* Footer */
 
 footer {
-    background-color: #212529;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-color: #293241;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
